@@ -67,16 +67,16 @@ def update_playlist_with_recent_songs(sp, target_playlist_id, playlist_ids, days
 def main():
 
     ### PUBLIC COLLECTION // GROCERIES
-    # target_playlist_id = "7bPfPkZSGbVAW1zmDfMMk4"
-    # playlist_ids = ['0ZQcCFqc1ziBiC1fvrrbsT', '5K90H2n44UPY72YFCoHIIA', '7f9o34JAe8ZSRq4GX7f0Ol', '5WOVw2iX7HuDug1MfvuGA2', '5X8lN5fZSrLnXzFtDEUwb9','74eAKWQUStNJFDbBUgNSFt', '6gsuuOM6lSq6JnDLHO20hl', '1zntMIkr4sykbGdtTQDuZp']
+    target_playlist_id = "7bPfPkZSGbVAW1zmDfMMk4"
+    playlist_ids = ['0ZQcCFqc1ziBiC1fvrrbsT', '5K90H2n44UPY72YFCoHIIA', '7f9o34JAe8ZSRq4GX7f0Ol', '5WOVw2iX7HuDug1MfvuGA2', '5X8lN5fZSrLnXzFtDEUwb9','74eAKWQUStNJFDbBUgNSFt', '6gsuuOM6lSq6JnDLHO20hl', '1zntMIkr4sykbGdtTQDuZp']
     days = 6
-    # update_playlist_with_recent_songs(sp, target_playlist_id, playlist_ids, days)
+    update_playlist_with_recent_songs(sp, target_playlist_id, playlist_ids, days)
 
     ### ALL NEW 
-    allnew_target = "4dCo4dtHPiQzcGZ76k75d0"
-    allnew_playlistids=['37i9dQZF1DX8C585qnMYHP']
+    #allnew_target = "4dCo4dtHPiQzcGZ76k75d0"
+    #allnew_playlistids=['37i9dQZF1DX8C585qnMYHP']
     #allnew_playlistids=['37i9dQZF1DXdbXrPNafg9d','37i9dQZF1DX5J7FIl4q56G','37i9dQZF1DX11otjJ7crqp','37i9dQZF1DX0KpeLFwA3tO','37i9dQZF1DWZryfp6NSvtz','37i9dQZF1DWZCOSaet9tpB','37i9dQZF1DX4dyzvuaRJ0n','37i9dQZF1DWV1aMSQY91oR','37i9dQZF1DX82GYcclJ3Ug','37i9dQZF1DX4JAvHpjipBk','37i9dQZF1DWT2jS7NwYPVI','37i9dQZF1DX7oMO417tEZs','37i9dQZF1DWUzFXarNiofw','37i9dQZF1DX4SBhb3fqCJd','37i9dQZF1DWYV7OOaGhoH0']
-    update_playlist_with_recent_songs(sp, allnew_target, allnew_playlistids, days)
+    #update_playlist_with_recent_songs(sp, allnew_target, allnew_playlistids, days)
 
     ### Fresh Finds
     # freshfinds_target = '6nUntr0HxRVBqyeCUrg0Ix'
