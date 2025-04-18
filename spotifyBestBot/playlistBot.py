@@ -68,7 +68,7 @@ def main():
 
     ### PUBLIC COLLECTION // GROCERIES
     target_playlist_id = "7bPfPkZSGbVAW1zmDfMMk4"
-    playlist_ids = ['0ZQcCFqc1ziBiC1fvrrbsT', '5K90H2n44UPY72YFCoHIIA', '7f9o34JAe8ZSRq4GX7f0Ol', '5WOVw2iX7HuDug1MfvuGA2', '5X8lN5fZSrLnXzFtDEUwb9','74eAKWQUStNJFDbBUgNSFt', '6gsuuOM6lSq6JnDLHO20hl', '1zntMIkr4sykbGdtTQDuZp']
+    playlist_ids = ['0ZQcCFqc1ziBiC1fvrrbsT', '5K90H2n44UPY72YFCoHIIA', '7f9o34JAe8ZSRq4GX7f0Ol', '5WOVw2iX7HuDug1MfvuGA2', '5X8lN5fZSrLnXzFtDEUwb9', '6gsuuOM6lSq6JnDLHO20hl', '1zntMIkr4sykbGdtTQDuZp']
     days = 6
     update_playlist_with_recent_songs(sp, target_playlist_id, playlist_ids, days)
 
