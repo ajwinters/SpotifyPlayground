@@ -1,1 +1,5 @@
 .venv/
+
+# Spotipy OAuth token cache — contains access/refresh tokens, never commit
+.cache
+**/.cache
